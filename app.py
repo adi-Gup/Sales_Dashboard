@@ -6,20 +6,16 @@ import plotly.express as px
 from millify import millify
 import time
 from PIL import Image
-import os
 
-# Get the parent directory
-parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
-# Construct the full path to the CSV file
-csv_path = os.path.join(parent_dir, 'all_sales_data_cleaned1.csv')
+
 
 # streamlit run C:/Users/ADITI/PycharmProjects/Sales_Dashboard/.venv/app.py
 # http://localhost:8501
 # NetworkURL: http: // 192.168.1.3: 8501
 
 # loading the dataset
-df = pd.read_csv(csv_path)  #'C:/Users/ADITI/PycharmProjects/Sales_Dashboard/.venv/all_sales_data_cleaned1.csv'
+df = pd.read_csv('C:/Users/ADITI/PycharmProjects/Sales_Dashboard/.venv/data_all_sales_data_cleaned1.csv')  #'C:/Users/ADITI/PycharmProjects/Sales_Dashboard/.venv/all_sales_data_cleaned1.csv'
 
 # setting the page layout
 st.set_page_config(layout='wide', page_title='Sales Analysis')
