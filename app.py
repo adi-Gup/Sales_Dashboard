@@ -9,13 +9,14 @@ from PIL import Image
 
 
 
-
+#'C:/Users/ADITI/PycharmProjects/Sales_Dashboard/.venv/all_sales_data_cleaned1.csv'
 # streamlit run C:/Users/ADITI/PycharmProjects/Sales_Dashboard/.venv/app.py
 # http://localhost:8501
 # NetworkURL: http: // 192.168.1.3: 8501
 
 # loading the dataset
-df = pd.read_csv('C:/Users/ADITI/PycharmProjects/Sales_Dashboard/.venv/data_all_sales_data_cleaned1.csv')  #'C:/Users/ADITI/PycharmProjects/Sales_Dashboard/.venv/all_sales_data_cleaned1.csv'
+df = pd.read_csv('data_all_sales_data_cleaned1.csv')  
+
 
 # setting the page layout
 st.set_page_config(layout='wide', page_title='Sales Analysis')
