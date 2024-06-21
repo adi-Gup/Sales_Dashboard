@@ -1,8 +1,5 @@
-streamlit 
-plotly 
-pandas 
-numpy 
-Image 
-millify 
-datetime 
-time
+streamlit==1.36.0
+plotly
+millify==0.1.1
+pandas
+numpy
