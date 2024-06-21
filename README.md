@@ -1,2 +1,8 @@
-# Sales_Dashboard
-An interactive sales dashboard made with streamlit and Python
+streamlit
+plotly
+pandas
+numpy
+Image
+millify
+datetime
+time
