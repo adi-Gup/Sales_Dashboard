@@ -1,4 +1,6 @@
-# Interactive Sales Insights Dashboard | Link -> https://merhjnobqgdqhmw9m3efs7.streamlit.app/?embed_options=light_theme
+# Interactive Sales Insights Dashboard 
+
+**Link ->** https://merhjnobqgdqhmw9m3efs7.streamlit.app/?embed_options=light_theme
 
 This project is a Sales Analysis Dashboard built with Python, Streamlit, Pandas, NumPy, and Plotly, providing a dynamic and interactive way to explore and analyze sales data. The app integrates data from 5+ distinct data sources, allowing users to visualize key performance metrics and gain valuable insights into sales trends, revenue growth, and product performance.
 
